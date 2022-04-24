@@ -1,0 +1,21 @@
+//Print the distance in Meters, feet, inches and centimeters in a separate line respectively
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    float a,b,c,d,e;
+    scanf("%f",&a);
+    b=a*1000;
+    c=3280.84*a;
+    d=39370.1*a;
+    e=100000*a;
+    printf("%.2f m\n",b);
+    printf("%.2f ft\n",c);
+    printf("%.2f in\n",d);
+    printf("%.2f cm",e);
+    return 0;
+}
