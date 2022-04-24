@@ -1,0 +1,20 @@
+//Print the duration in days, hours, minutes and seconds in format.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int a,d,hh,mm;
+    scanf("%d",&a);
+    mm=a/60;
+    a=a%60;
+    hh=mm/60;
+    mm=mm%60;
+    d=hh/24;
+    hh=hh%24;
+    printf("The Duration is %d days %d hours %d minutes %d seconds",d,hh,mm,a);
+    return 0;
+}
