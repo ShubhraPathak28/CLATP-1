@@ -1,0 +1,15 @@
+//Print the input area of the tract Land in square feet and its equivalent area in acres in a single line.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    float a,b;
+    scanf("%f",&a);
+    b=a/43560;
+    printf("%0.2f sq.ft is equal to %0.2f acres",a,b);
+    return 0;
+}
