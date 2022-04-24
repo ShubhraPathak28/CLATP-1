@@ -1,0 +1,15 @@
+//Print the minimum number of tiles need to pave the floor as output.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    float a,b,c;
+    scanf("%f %f",&a,&b);
+    c=(float)(a*b/2);
+    printf("%.0f", c);
+    return 0;
+}
