@@ -1,0 +1,17 @@
+//First Line: Print the Quotient in integer format. Second Line: Print the Remainder in integer format.
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    int amtgiven,billamt,q,r;
+    scanf("%d\n%d",&amtgiven,&billamt);
+    q=amtgiven/billamt;
+    r=amtgiven%billamt;
+    printf("Quotient:%d\n",q);
+    printf("Remainder:%d",r);
+    return 0;
+}
